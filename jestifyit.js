@@ -34,7 +34,7 @@ function jestifyit() {
     console.log(" \
 \n => Added experimental-modules node flag for jest \
 \n => Added 'type': 'module' \
-\n => Written new 'package.json file: \n" + new_file_data + " \
+\n => Written new 'package.json file. \n \
 \n => Now executing 'npm install --save-dev jest'. This may take a while..\n");
 
     // Execute the 'npm install --save-dev jest' shell command

@@ -38,7 +38,7 @@ function jestifyit() {
 \n => Now executing 'npm install --save-dev jest'. This may take a while..\n");
 
     // Execute the 'npm install --save-dev jest' shell command
-    exec("cd ../.. && npm install --save-dev jest", (error, stdout, stderr) => {
+    exec("cd ../../ && npm install --save-dev jest", (error, stdout, stderr) => {
         if (error) {
             console.log(`error: ${error.message}`);
             return;

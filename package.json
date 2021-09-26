@@ -1,6 +1,6 @@
 {
   "name": "jestifyit",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Prepares a project for Jest testing",
   "main": "jestifyit.js",
   "scripts": {
